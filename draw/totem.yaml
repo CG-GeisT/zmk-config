@@ -1,39 +1,39 @@
 layout: {zmk_keyboard: totem}
 layers:
   Base:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: A, h: Gui}
-  - {t: S, h: Alt}
-  - {t: D, h: Ctrl}
-  - {t: F, h: LSHIFT}
-  - G
-  - H
-  - {t: J, h: Shift}
-  - {t: K, h: Ctrl}
-  - {t: L, h: Alt}
-  - {t: '''', h: Gui}
-  - {type: trans}
-  - Z
-  - X
-  - C
-  - V
   - B
-  - N
+  - F
+  - L
+  - K
+  - Q
+  - P
+  - G
+  - O
+  - U
+  - .
+  - {t: N, h: Gui}
+  - {t: S, h: Alt}
+  - {t: H, h: Ctrl}
+  - {t: T, h: LSHIFT}
   - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '!', s: '?'}
-  - Gaming
+  - Y
+  - {t: C, h: Shift}
+  - {t: A, h: Ctrl}
+  - {t: E, h: Alt}
+  - {t: I, h: Gui}
   - {type: trans}
+  - X
+  - V
+  - J
+  - D
+  - Z
+  - ''''
+  - W
+  - /
+  - ;
+  - ','
+  - Gaming
+  - R
   - {t: Tab, h: Nav}
   - {t: Spc, h: Sym}
   - {t: ENTER, h: Num}
