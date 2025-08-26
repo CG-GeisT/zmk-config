@@ -160,10 +160,10 @@
         Base {
             display-name = "Base";
             bindings = <
-        &kp Q        &kp W        &kp E         &kp R          &kp T          &kp Y        &kp U         &kp I         &kp O        &kp P
-        &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHIFT F  &kp G          &kp H        &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SINGLE_QUOTE
-&trans  &kp Z        &kp X        &kp C         &kp V          &kp B          &kp N        &kp M         &comma_semic  &dot_colon   &ex_que                 &gaming_switch
-                                  &trans        &lt 3 TAB      &lt 1 SPACE    &lt 2 ENTER  &magic_shift  &trans
+        &kp B        &kp F        &kp L         &kp K          &kp Q          &kp P             &kp G         &kp O         &kp U          &kp DOT
+        &hml LGUI N  &hml LALT S  &hml LCTRL H  &hml LSHIFT T  &kp M          &kp Y             &hmr RSHFT C  &hmr RCTRL A  &hmr RALT E    &hmr RGUI I
+&trans  &kp X        &kp V        &kp J         &kp D          &kp Z          &kp SINGLE_QUOTE  &kp W         &kp SLASH     &kp SEMICOLON  &kp COMMA    &gaming_switch
+                                  &kp R         &lt 3 TAB      &lt 1 SPACE    &lt 2 ENTER       &magic_shift  &trans
             >;
         };
 
