@@ -273,3 +273,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+combos:
+- p: [0, 1]
+  k: Esc
+- p: [8, 9]
+  k: BACKSPACE
