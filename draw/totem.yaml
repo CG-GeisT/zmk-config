@@ -154,40 +154,40 @@ layers:
   - {t: numpad, h: sticky}
   - {type: trans}
   - {type: trans}
-  - KP 0
   - {type: trans}
+  - KP 0
   Nav:
   - Next Win
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
   - Home
-  - PgDn
+  - PAGE DOWN
   - PgUp
   - End
-  - {type: trans}
   - {t: ESCAPE, h: Gui}
   - Alt
   - Ctrl
   - LSHIFT
+  - {type: trans}
   - {type: trans}
   - ←
   - ↓
   - ↑
   - →
   - {type: trans}
-  - {type: trans}
   - Ctl+Z
   - Cut
   - Copy
   - Ctl+V
   - {type: trans}
+  - {type: trans}
   - Scroll ←
   - Scroll ↓
   - Scroll ↑
   - Scroll →
-  - {type: trans}
   - {type: trans}
   - {type: held}
   - {type: trans}
