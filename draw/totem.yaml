@@ -203,7 +203,7 @@ layers:
   - R
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - ↑
   - {type: trans}
   - {type: trans}
   - Shift
@@ -212,9 +212,9 @@ layers:
   - D
   - F
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - ←
+  - ↓
+  - →
   - {type: trans}
   - {type: trans}
   - Ctrl
@@ -231,8 +231,8 @@ layers:
   - {type: trans}
   - GamingNum
   - Spc
-  - {type: trans}
-  - {type: trans}
+  - Spc
+  - Ctrl
   - {type: trans}
   GamingNum:
   - Next Win
