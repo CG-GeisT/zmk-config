@@ -124,7 +124,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "GAMING_SWITCH";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&to 4>;
+            bindings = <&to 0>, <&to 5>;
         };
 
         swapper: swapper {
@@ -152,7 +152,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        escape {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -163,7 +175,7 @@
         &kp B        &kp F        &kp L         &kp K          &kp Q          &kp P             &kp G         &kp O         &kp U          &kp DOT
         &hml LGUI N  &hml LALT S  &hml LCTRL H  &hml LSHIFT T  &kp M          &kp Y             &hmr RSHFT C  &hmr RCTRL A  &hmr RALT E    &hmr RGUI I
 &trans  &kp X        &kp V        &kp J         &kp D          &kp Z          &kp SINGLE_QUOTE  &kp W         &kp SLASH     &kp SEMICOLON  &kp COMMA    &gaming_switch
-                                  &kp R         &lt 3 TAB      &lt 1 SPACE    &lt 2 ENTER       &magic_shift  &trans
+                                  &lt 4 TAB     &kp R          &lt 1 SPACE    &lt 2 ENTER       &magic_shift  &kp ESCAPE
             >;
         };
 
@@ -185,12 +197,21 @@
             >;
         };
 
+        numpad {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
+                        &trans  &sl 3   &trans    &trans  &trans           &kp KP_NUMBER_0
+            >;
+        };
+
         Nav {
             bindings = <
-        &swapper         &trans     &trans     &trans      &trans    &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
-        &mt LGUI ESCAPE  &kp LALT   &kp LCTRL  &kp LSHIFT  &trans    &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &trans
-&trans  &kp LC(Z)        &kp LC(X)  &kp LC(C)  &kp LC(V)   &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-                                    &trans     &trans      &trans    &kp BACKSPACE   &kp DELETE      &trans
+        &swapper         &trans     &trans     &trans      &trans    &trans         &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END
+        &mt LGUI ESCAPE  &kp LALT   &kp LCTRL  &kp LSHIFT  &trans    &trans         &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT
+&trans  &kp LC(Z)        &kp LC(X)  &kp LC(C)  &kp LC(V)   &trans    &trans         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+                                    &trans     &trans      &trans    &kp BACKSPACE  &kp DELETE      &trans
             >;
         };
 
@@ -199,7 +220,7 @@
         &kp TAB    &kp Q  &kp W   &kp E  &kp R        &trans  &trans  &trans  &trans  &trans
         &kp LSHFT  &kp A  &kp S   &kp D  &kp F        &trans  &trans  &trans  &trans  &trans
 &trans  &kp LCTRL  &kp Z  &kp X   &kp C  &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &mo 5  &kp SPACE    &trans  &trans  &trans
+                          &trans  &mo 6  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
