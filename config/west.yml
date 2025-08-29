@@ -26,8 +26,8 @@ manifest:
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: carrefinho                      
+      url-base: https://github.com/carrefinho
 
   projects:
     - name: zmk
@@ -46,10 +46,10 @@ manifest:
     - name: zmk-tri-state
       path: modules/zmk/tri-state
 
-    - name: zmk-dongle-screen
-      remote: janpfischer
+    - name: prospector-zmk-module
+      remote: carrefinho
       revision: main
-
+      
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
     - name: zephyr
