@@ -1,44 +1,44 @@
 layout: {zmk_keyboard: totem}
 layers:
   Base:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: A, h: Gui}
-  - {t: S, h: Alt}
-  - {t: D, h: Ctrl}
-  - {t: F, h: LSHIFT}
-  - G
-  - H
-  - {t: J, h: Shift}
-  - {t: K, h: Ctrl}
-  - {t: L, h: Alt}
-  - {t: '''', h: Gui}
-  - {type: trans}
-  - Z
-  - X
-  - C
-  - V
   - B
-  - N
+  - F
+  - L
+  - K
+  - Q
+  - P
+  - G
+  - O
+  - U
+  - .
+  - {t: N, h: Gui}
+  - {t: S, h: Alt}
+  - {t: H, h: Ctrl}
+  - {t: T, h: LSHIFT}
   - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '!', s: '?'}
-  - Gaming
+  - Y
+  - {t: C, h: Shift}
+  - {t: A, h: Ctrl}
+  - {t: E, h: Alt}
+  - {t: I, h: Gui}
   - {type: trans}
+  - X
+  - V
+  - J
+  - D
+  - Z
+  - ''''
+  - W
+  - /
+  - ;
+  - ','
+  - Gaming
   - {t: Tab, h: Nav}
+  - R
   - {t: Spc, h: Sym}
   - {t: ENTER, h: Num}
   - {t: Magic, h: Shift}
-  - {type: trans}
+  - ESCAPE
   Sym:
   - Next Win
   - '@'
@@ -117,41 +117,80 @@ layers:
   - {type: held}
   - {type: trans}
   - {type: trans}
+  numpad:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: numpad, h: sticky}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - KP 0
   Nav:
   - Next Win
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
   - Home
-  - PgDn
+  - PAGE DOWN
   - PgUp
   - End
-  - {type: trans}
   - {t: ESCAPE, h: Gui}
   - Alt
   - Ctrl
   - LSHIFT
+  - {type: trans}
   - {type: trans}
   - ←
   - ↓
   - ↑
   - →
   - {type: trans}
-  - {type: trans}
   - Ctl+Z
   - Cut
   - Copy
   - Ctl+V
+  - {type: trans}
   - {type: trans}
   - Scroll ←
   - Scroll ↓
   - Scroll ↑
   - Scroll →
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
   - {type: held}
+  - {type: trans}
   - {type: trans}
   - BACKSPACE
   - DELETE
@@ -164,7 +203,7 @@ layers:
   - R
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - ↑
   - {type: trans}
   - {type: trans}
   - Shift
@@ -173,9 +212,9 @@ layers:
   - D
   - F
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - ←
+  - ↓
+  - →
   - {type: trans}
   - {type: trans}
   - Ctrl
@@ -192,8 +231,8 @@ layers:
   - {type: trans}
   - GamingNum
   - Spc
-  - {type: trans}
-  - {type: trans}
+  - Spc
+  - Ctrl
   - {type: trans}
   GamingNum:
   - Next Win
@@ -234,3 +273,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+combos:
+- p: [0, 1]
+  k: Esc
+- p: [8, 9]
+  k: BACKSPACE
