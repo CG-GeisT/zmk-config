@@ -46,11 +46,6 @@ manifest:
     - name: zmk-tri-state
       path: modules/zmk/tri-state
 
-    # yads
-    - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main   
-
     # Temporarily overload Zephyr until
     # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
     - name: zephyr
