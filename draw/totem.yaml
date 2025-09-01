@@ -21,7 +21,7 @@ layers:
   - {t: A, h: Ctrl}
   - {t: E, h: Alt}
   - {t: I, h: Gui}
-  - {type: trans}
+  - F22
   - X
   - V
   - J
@@ -132,7 +132,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - F22
+  - {type: trans}
   - {type: trans}
   - KP 4
   - KP 5
