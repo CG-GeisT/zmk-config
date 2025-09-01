@@ -112,7 +112,7 @@ layers:
   - F10
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {t: numpad, h: sticky}
   - {type: trans}
   - {type: held}
   - {type: trans}
@@ -132,7 +132,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - F22
   - {type: trans}
   - KP 4
   - KP 5
@@ -151,9 +151,9 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: numpad, h: sticky}
+  - {type: held}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   - KP 0
   Nav:
