@@ -137,10 +137,10 @@
         Base {
             display-name = "Base";
             bindings = <
-        &kp B        &kp F        &kp L         &kp K          &kp Q          &kp P             &kp G         &kp O         &kp U          &kp DOT
-        &hml LGUI N  &hml LALT S  &hml LCTRL H  &hml LSHIFT T  &kp M          &kp Y             &hmr RSHFT C  &hmr RCTRL A  &hmr RALT E    &hmr RGUI I
-&trans  &kp X        &kp V        &kp J         &kp D          &kp Z          &kp SINGLE_QUOTE  &kp W         &kp SLASH     &kp SEMICOLON  &kp COMMA    &gaming_switch
-                                  &lt 4 TAB     &kp R          &lt 1 SPACE    &lt 2 ENTER       &magic_shift  &kp ESCAPE
+         &kp B        &kp F        &kp L         &kp K          &kp Q          &kp P             &kp G         &kp O         &kp U          &kp DOT
+         &hml LGUI N  &hml LALT S  &hml LCTRL H  &hml LSHIFT T  &kp M          &kp Y             &hmr RSHFT C  &hmr RCTRL A  &hmr RALT E    &hmr RGUI I
+&kp F22  &kp X        &kp V        &kp J         &kp D          &kp Z          &kp SINGLE_QUOTE  &kp W         &kp SLASH     &kp SEMICOLON  &kp COMMA    &gaming_switch
+                                   &lt 4 TAB     &kp R          &lt 1 SPACE    &lt 2 ENTER       &magic_shift  &kp ESCAPE
             >;
         };
 
@@ -164,10 +164,10 @@
 
         numpad {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans     &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
-        &trans  &trans  &trans  &trans  &kp F22    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
-                        &trans  &trans  &trans     &trans  &trans           &kp KP_NUMBER_0
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans           &kp KP_NUMBER_0
             >;
         };
 
