@@ -40,7 +40,7 @@ layers:
   - {t: Magic, h: Shift}
   - ESCAPE
   Sym:
-  - Next Win
+  - ''
   - '@'
   - '#'
   - $
@@ -157,7 +157,7 @@ layers:
   - {type: trans}
   - KP 0
   Nav:
-  - Next Win
+  - ''
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -235,7 +235,7 @@ layers:
   - Ctrl
   - {type: trans}
   GamingNum:
-  - Next Win
+  - ''
   - '1'
   - '2'
   - '3'
@@ -274,7 +274,7 @@ layers:
   - {type: trans}
   - {type: trans}
 combos:
-- p: [0, 1]
+- p: [1, 2]
   k: Esc
-- p: [8, 9]
+- p: [8, 7]
   k: BACKSPACE
